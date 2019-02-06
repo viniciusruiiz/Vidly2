@@ -1,0 +1,4 @@
+-> cadastro de cliente
+-> pegar o nome de usuario
+-> trocar nivel de acesso (TELA E BACK)
+-> telas confirmação ou negação de aluguel

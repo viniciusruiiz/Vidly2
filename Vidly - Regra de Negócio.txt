@@ -1,0 +1,20 @@
+VIDLY - Regras de negócio
+
+Models:
+
+-Filmes (Id, Nome, Gênero, Faixa Etária, Data de Lançamento, Está Disponível, Lista de Pessoas que reservaram o filme)
+-Clientes (Id, Nome, CPF, Data de Nascimento, Nivel de Acesso, Pode Reservar mais?, Lista de Filmes Reservados)
+
+Aplicação (Funções)
+
+-Escolher os filmes para alugar
+-Pesquisa de Clientes (por Nome ou CPF) //somente para Administradores
+-Pesquisa de Filmes (por Nome, Gênero, Faixa Etária, Data de Lançamento(Início e Fim), Disponibilidade)
+-Insersão de filmes //somente para Administradores
+-Bloquear Filmes com a faixa etária maior que 12 //Somente para usuários kids
+-Filmes só podem ser alugados por 50 pessoas
+-Pessoas só podem alugar 5 filmes de uma vez
+-Cada Cliente tem sua própria sessão de alugados
+-Setar outros usuários como administradores //Somente para Administradores
+
+prioridade = login
